@@ -37,25 +37,25 @@ class GameNode:
     self.next = next
 
 class RPS:
-  ROCK = 0
-  PAPER = GameNode(ROCK)
-  SCISSORS = GameNode(PAPER)
-  ROCK = GameNode(SCISSORS)
+	ROCK = 0
+	PAPER = GameNode(ROCK)
+	SCISSORS = GameNode(PAPER)
+	ROCK = GameNode(SCISSORS)
 	all = [ROCK, PAPER, SCISSORS]
 	allStr = ['Rock', 'Paper', 'Scissors']
 
 def play():
-    choice = int(input())
-		print('Your choice: ' + RPS.allStr[choice - 1])
-    if choice < 1 or choice > 3:
-      return 'Invalid choice'
-    choice = RPS.all[choice - 1]
-		comInt = randint(0, 2)
-		print('Computer's choice: ' + RPS.allStr[comInt])
-    com = RPS.all[comInt]
-    if com == choice: return 'Tie!'
-    elif com.next == choice: return 'Computer wins!'
-    else: return 'You win!'
+	choice = int(input())
+	if choice < 1 or choice > 3:
+		return 'Invalid choice'
+	print('Your choice: ' + RPS.allStr[choice - 1])
+	choice = RPS.all[choice - 1]
+	comInt = randint(0, 2)
+	print('Computer\'s choice: ' + RPS.allStr[comInt])
+	com = RPS.all[comInt]
+	if com == choice: return 'Tie!'
+	elif com.next == choice: return 'Computer wins!'
+	else: return 'You win!'
 
 play()
 </py-script> </article>

@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  </head>
+  <body> <py-script> 
+print('PyScript testing.')
+    
+def fibonacci_iterative(n):
+  a, b = 0, 1
+  for i in range(n):
+    a, b = b, a + b
+  return a
+    
+print('This is the 10th Fibonacci number as calculated by PyScript:')
+print(fibonacci_iterative(10))
+  </py-script> </body>
+</html>

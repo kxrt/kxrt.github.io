@@ -42,13 +42,17 @@ class RPS:
   SCISSORS = GameNode(PAPER)
   ROCK = GameNode(SCISSORS)
   all = [ROCK, PAPER, SCISSORS]
+	allStr = ['Rock', 'Paper', 'Scissors']
 
 def play():
-    choice = int(input('Enter your choice:'))
+    choice = int(input())
+		print('Your choice: ' + RPS.allStr[choice - 1])
     if choice < 1 or choice > 3:
       return 'Invalid choice'
     choice = RPS.all[choice - 1]
-    com = RPS.all[randint(0, 2)]
+		comInt = randint(0, 2)
+		print('Computer's choice: ' + RPS.allStr[comInt])
+    com = RPS.all[comInt]
     if com == choice: return 'Tie!'
     elif com.next == choice: return 'Computer wins!'
     else: return 'You win!'

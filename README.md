@@ -1,6 +1,6 @@
 # Hi, I'm Kartikeya! 🤩
 
-My resume is available [here](https://github.com/kxrt/kxrt/blob/main/Kartikeya_Resume.pdf). For any questions, feel free to reach out to me through my [LinkedIn profile](https://www.linkedin.in/in/kvrtikeya). You can also view my [business card](https://github.com/kxrt/business-card) in your own terminal by running the following commmand: `npx kxrt`.
+My resume is available [here](https://github.com/kxrt/kxrt.github.io/blob/main/Kartikeya_Resume.pdf). For any questions, feel free to reach out to me through my [LinkedIn profile](https://www.linkedin.in/in/kvrtikeya). You can also view my [business card](https://github.com/kxrt/business-card) in your own terminal by running the following commmand: `npx kxrt`.
 
 # Projects
 ### RVRC Symposium

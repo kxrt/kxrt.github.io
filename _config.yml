@@ -23,7 +23,7 @@ email: kartikeya@u.nus.edu
 description: >- # this means to ignore newlines until "baseurl:"
   I am a Computer Science undergraduate student in my second year at the National University of Singapore. My interests are in full-stack web development and software engineering. I enjoy creating timeless, reactive, and clean interfaces, coupled together with smooth backend processes to improve the user experience.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "url: http://username.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: kvrtikeya
 github_username: kxrt
 

@@ -5,13 +5,13 @@
 layout: home
 ---
 # Hi, I'm Kartikeya.
-I'm a **computer science** undergraduate at the National University of Singapore. My interests are in **full-stack web development** and **software engineering**. I enjoy creating timeless and reactive frontend interfaces, and combining them with a carefully designed backend to provide a seamless user experience.
+I'm a computer science undergraduate at the National University of Singapore. My interests are in **full-stack web development** and **software engineering**. I enjoy creating timeless and reactive frontend interfaces, and combining them with a carefully designed backend to provide a seamless user experience.
 
 # Get in touch with me!
 
 My **resume** is available [here](https://kxrt.me/Kartikeya_Resume.pdf). For any questions, feel free to reach out to me through my [LinkedIn profile](https://www.linkedin.in/in/kvrtikeya). You can also view my [business card](https://github.com/kxrt/business-card) in your own terminal by running the following commmand: `npx kxrt`.
 
-# Projects
+# Latest Projects
 ### Juniors Club Project - Google Developer Student Clubs NUS (GDSC-NUS)
 I am part of a team of 15 other software engineers building a learning and content management system for FoodBank Singapore, to revolutionise in-person and digital teaching programs around food security. Check out the codebase [here](https://github.com/Project-Juniors-Club/jc-app).
 
